@@ -1,0 +1,63 @@
+@font-face {
+	src: url('../fonts/MarbleVariable.woff2') format('woff2-variations');
+	font-family:'Marble';
+	font-style: normal;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Marble';
+    color: blanchedalmond;
+}
+
+.supercontenidor {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 100vh;
+    transition: top 3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    font-size: 40px;
+    font-variation-settings: "wght" 900, "wdth" 125, "opsz" 28.49;
+}
+
+
+.contenidor {
+    position: absolute;
+    width: 100vh;
+    top: 90vh;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.contenidor p {
+    text-align: center;
+}
+
+#primer {
+    background-image: url('../img/img2672754.jpg');
+}
+
+#segon {
+    background-image: url('../img/img257751.jpg');
+}
+
+#tercer {
+    background-image: url('../img/img95370.jpg');
+}
+
+#quart {
+    background-image: url('../img/czz.jpg');
+}
+
+#cinque {
+    background-image: url('../img/img3475315.jpg');
+}
